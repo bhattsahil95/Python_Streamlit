@@ -1,6 +1,4 @@
 py# Streamlit Wesbite project
-# Add comment fot git
-#Add another comment
 
 import streamlit as st
 import time
