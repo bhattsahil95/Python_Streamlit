@@ -1,0 +1,156 @@
+2023-02-04 11:20:25:wordhoard.dictionary:ERROR: An error occurred in the following code segment:
+2023-02-04 11:20:25:wordhoard.dictionary:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\dictionary.py", line 307, in _query_merriam_webster
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:20:25:wordhoard.dictionary:ERROR: An error occurred in the following code segment:
+2023-02-04 11:20:25:wordhoard.dictionary:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\dictionary.py", line 390, in _query_synonym_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:21:18:wordhoard.dictionary:ERROR: An error occurred in the following code segment:
+2023-02-04 11:21:18:wordhoard.dictionary:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\dictionary.py", line 307, in _query_merriam_webster
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:21:18:wordhoard.dictionary:ERROR: An error occurred in the following code segment:
+2023-02-04 11:21:18:wordhoard.dictionary:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\dictionary.py", line 390, in _query_synonym_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:24:22:wordhoard.dictionary:ERROR: An error occurred in the following code segment:
+2023-02-04 11:24:22:wordhoard.dictionary:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\dictionary.py", line 307, in _query_merriam_webster
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:24:22:wordhoard.dictionary:ERROR: An error occurred in the following code segment:
+2023-02-04 11:24:22:wordhoard.dictionary:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\dictionary.py", line 390, in _query_synonym_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:24:42:wordhoard.dictionary:ERROR: An error occurred in the following code segment:
+2023-02-04 11:24:42:wordhoard.dictionary:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\dictionary.py", line 307, in _query_merriam_webster
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:24:43:wordhoard.dictionary:ERROR: An error occurred in the following code segment:
+2023-02-04 11:24:43:wordhoard.dictionary:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\dictionary.py", line 390, in _query_synonym_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:25:39:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:25:39:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 233, in _query_thesaurus_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:25:39:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:25:39:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 312, in _query_wordhippo
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:25:49:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:25:49:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 233, in _query_thesaurus_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:25:50:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:25:50:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 312, in _query_wordhippo
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:26:05:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:26:05:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 233, in _query_thesaurus_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:26:05:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:26:05:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 312, in _query_wordhippo
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:35:02:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:35:02:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 233, in _query_thesaurus_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:35:02:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:35:02:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 312, in _query_wordhippo
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:35:40:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:35:40:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 233, in _query_thesaurus_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:35:41:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:35:41:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 312, in _query_wordhippo
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:36:05:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:36:05:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 233, in _query_thesaurus_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:36:06:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:36:06:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 312, in _query_wordhippo
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:36:47:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:36:47:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 233, in _query_thesaurus_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:36:48:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:36:48:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 312, in _query_wordhippo
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:37:41:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:37:41:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 233, in _query_thesaurus_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:37:41:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:37:41:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 312, in _query_wordhippo
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:38:02:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:38:02:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 233, in _query_thesaurus_com
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
+2023-02-04 11:38:02:wordhoard.antonyms:ERROR: An error occurred in the following code segment:
+2023-02-04 11:38:02:wordhoard.antonyms:ERROR:   File "C:\Users\SBhatt\Anaconda3\lib\site-packages\wordhoard\antonyms.py", line 312, in _query_wordhippo
+    soup = BeautifulSoup(response.text, "lxml")
+  File "C:\Users\SBhatt\Anaconda3\lib\site-packages\bs4\__init__.py", line 248, in __init__
+    raise FeatureNotFound(
+
