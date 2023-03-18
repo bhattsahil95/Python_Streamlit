@@ -1,4 +1,4 @@
-py# Streamlit Wesbite project
+# Streamlit Wesbite project
 
 import streamlit as st
 import time
