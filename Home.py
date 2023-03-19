@@ -6,7 +6,7 @@ import time
 
 def page():
     return st.set_page_config(
-         page_title="My First Web App",
+         page_title="Hire Sahil Bhatt!",
          page_icon=":shark:",
          layout="wide",
          initial_sidebar_state="expanded",
@@ -57,14 +57,14 @@ st.markdown('#')
 with b:
     st.markdown("<h1 style='text-align: center; color: white ;'> Why Python ? </h1>", unsafe_allow_html=True)
 
-st.markdown(" Test Test ")
+
 
 col1, col2, col3 = st.columns(3)
 
 
 with col1:
     with st.expander("**Data Science**", expanded=False):
-        # st.image("images\data.jpg", caption='Data is the Key')
+        st.image("images\data.jpg", caption='Data is the Key')
         st.markdown('#')
         st.markdown('###')
         '---'
