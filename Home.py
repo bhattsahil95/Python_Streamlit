@@ -1,7 +1,10 @@
 # Streamlit Wesbite projects
-
+import os.path
+from PIL import Image
 import streamlit as st
+import streamlit.components.v1 as components
 import time
+import pathlib
 
 
 def page():
@@ -10,12 +13,12 @@ def page():
          page_icon=":shark:",
          layout="wide",
          initial_sidebar_state="expanded",
-         menu_items={
-             'Get Help': 'https://www.extremelycoolapp.com/help',
-             'Report a bug': "https://www.extremelycoolapp.com/bug",
-             'About': "# This is a header. This is an *extremely* cool app!"
+         # menu_items={
+         #     'Get Help': 'https://www.extremelycoolapp.com/help',
+         #     'Report a bug': "https://www.extremelycoolapp.com/bug",
+         #     'About': "# This is a header. This is an *extremely* cool app!"
 
-         }
+         # }
      )
 
 page()
@@ -64,7 +67,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     with st.expander("**Data Science**", expanded=False):
-        # st.image("images\data.jpg", caption='Data is the Key')
+        st.image(os.path.join('images','data.jpg'), caption='Data is the Key')
         st.markdown('#')
         st.markdown('###')
         '---'
@@ -76,7 +79,7 @@ with col1:
 
 with col2:
     with st.expander("Web Development"):
-        # st.image("images\web.png",  caption= 'Build Powerful Apps' , use_column_width='always')
+        st.image(os.path.join('images','web.png'),  caption= 'Build Powerful Apps' , use_column_width='always')
         '---'
         st.write('''
                If you're interested in using Python for web development, there are a few key frameworks and libraries you should become familiar with. Firstly, you'll want to have a solid understanding of the fundamentals of Python programming, as well as HTML, CSS, and JavaScript. Then, you can dive into popular Python web frameworks such as Django and Flask. These frameworks provide the building blocks you need to create dynamic, interactive websites and web applications. Additionally, you'll want to familiarize yourself with front-end technologies like JavaScript and CSS, as well as databases such as SQL and NoSQL, as these are often used in conjunction with Python for web development. Remember, practice makes perfect, so make sure to build projects and experiment with different tools and technologies to get a hands-on understanding of how everything fits together.
@@ -85,7 +88,7 @@ with col2:
 
 with col3:
     with st.expander("AI / ML"):
-        # st.image("images\AIML.jpeg", caption= 'Unleashing the Power of Intelligence ', use_column_width='always')
+        st.image(os.path.join('images','AIML.JPEG'), caption= 'Unleashing the Power of Intelligence ', use_column_width='always')
         st.markdown('#')
 
         '---'
@@ -104,3 +107,4 @@ To get started with AI and ML in Python, it's important to have a solid understa
 
 
 '---'
+
