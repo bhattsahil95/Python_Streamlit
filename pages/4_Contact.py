@@ -17,8 +17,6 @@ def page():
 page()
 
 
-
-
 with st.sidebar:
     select = st.sidebar.selectbox(
         "How would you like to be contacted?",

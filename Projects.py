@@ -402,3 +402,27 @@ for e in b:
 
 
 '''
+
+i_sort = '''
+
+import random 
+arr = []
+for i in range(1, 100):
+ arr.append(random.randint(1,100))
+print(arr)
+def insersion_sort(arr):
+  for i in range(1,len(arr)):
+    key = arr[i]
+    j = i-1
+    while j>=0 and key < arr[j]:
+      arr[j+1] = arr[j]         #Try arr[i] = j 
+      j -= 1
+    arr[j+1] = key 
+    
+                 
+insersion_sort(arr)
+print(arr)
+
+    
+
+'''
