@@ -23,7 +23,7 @@ st.info(
 
 with st.sidebar:
     python_101 = st.sidebar.selectbox(
-        "List of Projects ",
+        "Code Type",
         ("Game", "Algo", "Projects")
     )
 
@@ -212,7 +212,7 @@ if python_101 == "Algo":
 
                 st.markdown(
                     "<h6 style='text-align: center;'> However, there are tons of websites and resources available that "
-                    "basically has all the used algos ready to use. So......I might attempt to write my own algorithm if I take up any project like that! "
+                    "basically has all the common algos ready to use. So......I might attempt to write my own algo if a project requires it! "
                     " </h6>",
                     unsafe_allow_html=True)
 
@@ -220,5 +220,4 @@ if python_101 == "Algo":
 
                 st.code(i_sort, language='python')
                 '---'
-                st.image(os.path.join('images', 'dumb.jpg'),
-                         caption='Me trying to make sense of my code after two weeks !', use_column_width='always')
+
