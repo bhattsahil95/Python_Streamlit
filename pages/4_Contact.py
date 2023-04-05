@@ -51,7 +51,7 @@ with st.container():
         ''')
         col3, col1, col2 = st.columns([1, 4, 1])
         with col1:
-            show_pdf('Certificates/python_ztm.pdf')
+            show_pdf(os.path.join('Certificates','python_ztm.pdf'))
 
         '---'
         with col2:
@@ -71,7 +71,7 @@ with st.container():
         '---'
         col3, col1, col2 = st.columns([1, 4, 1])
         with col1:
-            show_pdf('Certificates/python_scaler.pdf')
+            show_pdf(os.path.join('Certificates','python_scaler.pdf'))
 
         '---'
         with col2:
