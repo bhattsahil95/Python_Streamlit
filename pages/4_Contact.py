@@ -70,10 +70,10 @@ with st.container():
             show_pdf(os.path.join('Certificates','python_scaler.pdf'))
 
         '---'
-    with st.expander("Test PDF"):
-
-        file = os.path.join('Certificates','python_ztm.pdf')
-        with open(file, "rb") as f:
-            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-        pdf_display = F'<iframe src="data:{file};base64,{base64_pdf}" width="700" height="1000" type="application/pdf">PDF</iframe>'
-        st.markdown(pdf_display, unsafe_allow_html=True)
+    # with st.expander("Test PDF"):
+    #
+    #     file = os.path.join('Certificates','python_ztm.pdf')
+    #     with open(file, "rb") as f:
+    #         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+    #     pdf_display = F'<iframe src="data:{file};base64,{base64_pdf}" width="700" height="1000" type="application/pdf">PDF</iframe>'
+    #     st.markdown(pdf_display, unsafe_allow_html=True)
