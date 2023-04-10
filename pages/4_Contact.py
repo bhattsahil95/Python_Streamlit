@@ -48,26 +48,21 @@ with st.container():
 
         st.balloons()
         st.write('''
-        More information about the certification. 
+        More information about the certification. Validate this Certificate Here! 	:point_right: [:heavy_check_mark:](https://www.udemy.com/certificate/UC-90653b4c-a49d-40f2-80d2-b43b3e14c563/)
         ''')
         col3, col1, col2 = st.columns([1, 4, 1])
         with col1:
             show_pdf(os.path.join('Certificates','python_ztm.pdf'))
 
         '---'
-        with col2:
-            if st.button('Validate this Certificate! ',key='ztm'):
-                webbrowser.open_new_tab(url='https://www.udemy.com/certificate/UC-90653b4c-a49d-40f2-80d2-b43b3e14c563/')
-            else:
-                pass
 
 
     '---'
 
-    with st.expander("Python and SQL for Data Science - Scaler"):
+    with st.expander("Python and SQL for Data Science - Scaler "):
         st.balloons()
         st.write('''
-        More information about the certification. 
+        More information about the certification.  Validate this Certificate Here! 	:point_right: [:heavy_check_mark:](https://moonshot.scaler.com/s/sl/QQZTt-z4He)
         ''')
         '---'
         col3, col1, col2 = st.columns([1, 4, 1])
@@ -75,27 +70,3 @@ with st.container():
             show_pdf(os.path.join('Certificates','python_scaler.pdf'))
 
         '---'
-        with col2:
-            if st.button('Validate this Certificate! ',key='scaler'):
-                webbrowser.open_new_tab(url='https://moonshot.scaler.com/s/sl/QQZTt-z4He')
-            else:
-                pass
-
-    google = 'https://google.com'
-
-    if st.button('Google ',key='google'):
-        webbrowser.open(google)
-    else:
-        pass
-   #
-   #  st.markdown(f""" <link href="style.css" rel="stylesheet" />
-   # """,unsafe_allow_html=True
-   #  )
-   #
-   #  st.markdown(f'''
-   #  <a href={google}><button link='style.css' rel="stylesheet" class="button-55" role="button" >Open Google</button></a>
-   #  ''',
-   #              unsafe_allow_html=True)
-   #
-   #  st.write(
-   #      "Validate this Certificate Here! [:heavy_check_mark:](https://moonshot.scaler.com/s/sl/QQZTt-z4He)")
