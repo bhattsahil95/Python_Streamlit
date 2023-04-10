@@ -1,8 +1,8 @@
 import os.path
-
 import streamlit as st
 import  base64
 import webbrowser
+import urllib3
 
 def page():
     return st.set_page_config(
@@ -80,5 +80,9 @@ with st.container():
             else:
                 pass
 
+    google = 'https://google.com'
 
-
+    if st.button('Google ',key='google'):
+        webbrowser.open_new_tab(url=google)
+    else:
+        pass
