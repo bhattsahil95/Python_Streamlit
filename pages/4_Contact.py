@@ -2,7 +2,7 @@ import os.path
 import streamlit as st
 import  base64
 import webbrowser
-import urllib3
+import urllib
 
 def page():
     return st.set_page_config(
@@ -19,6 +19,7 @@ def page():
      )
 
 page()
+
 
 
 with st.sidebar:
@@ -83,11 +84,18 @@ with st.container():
     google = 'https://google.com'
 
     if st.button('Google ',key='google'):
-        webbrowser.open_new_tab(url=google)
+        webbrowser.open(google)
     else:
         pass
-
-    st.markdown(f'''
-    <a href={google}><button style="background-color:GreenYellow;">Stackoverflow</button></a>
-    ''',
-                unsafe_allow_html=True)
+   #
+   #  st.markdown(f""" <link href="style.css" rel="stylesheet" />
+   # """,unsafe_allow_html=True
+   #  )
+   #
+   #  st.markdown(f'''
+   #  <a href={google}><button link='style.css' rel="stylesheet" class="button-55" role="button" >Open Google</button></a>
+   #  ''',
+   #              unsafe_allow_html=True)
+   #
+   #  st.write(
+   #      "Validate this Certificate Here! [:heavy_check_mark:](https://moonshot.scaler.com/s/sl/QQZTt-z4He)")
