@@ -39,7 +39,7 @@ with st.sidebar:
 if select == "Certificates":
     with st.container():
 
-        st.markdown("<h1 style='text-align: center; '> My Certificates </h1>",
+        st.markdown("<h1 style='text-align: center; '> My Tech Certificates </h1>",
                     unsafe_allow_html=True)
 
         st.write("#")
