@@ -23,6 +23,7 @@ def page():
 
 page()
 
+st.info('Portfolio under construction. Have patience. I will add more things soon......,', icon="⚠️")
 
 with st.container():
     col1, col2, col3 = st.columns([1,6,1])
