@@ -24,5 +24,5 @@ if 'Express (2-5 days)' in drop_down :
 #             unsafe_allow_html=True)
 
 
-# Certificates/python_ztm.pdf
 
+'---'
