@@ -66,7 +66,7 @@ if select == "Certificates":
                 ''')
                 '---'
 
-                st.image(os.path.join('Certificates', 'python_scaler.jpg'), caption='Scaler Topics')
+                st.image(os.path.join('Certificates', 'Python_Scaler.jpg'), caption='Scaler Topics')
 
                 '---'
 
