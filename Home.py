@@ -65,6 +65,7 @@ with b:
 col1, col2, col3 = st.columns(3)
 
 
+
 with col1:
     with st.expander("**Data Science**", expanded=False):
         st.image(os.path.join('images','data.jpg'), caption='Data is the Key')

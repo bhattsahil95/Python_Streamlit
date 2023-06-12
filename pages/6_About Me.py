@@ -52,8 +52,8 @@ if select == "Certificates":
                 st.write('''
                 More information about the certification. Validate this Certificate Here! 	:point_right: [:heavy_check_mark:](https://www.udemy.com/certificate/UC-90653b4c-a49d-40f2-80d2-b43b3e14c563/)
                 ''')
+                st.image(os.path.join('Certificates', 'python_ztm.jpg'), caption='Zero to Mastery')
 
-                show_pdf(os.path.join('Certificates','python_ztm.pdf'))
 
                 '---'
 
@@ -66,8 +66,7 @@ if select == "Certificates":
                 ''')
                 '---'
 
-                scaler = os.path.join('Certificates','python_scaler.pdf')
-                show_pdf(scaler)
+                st.image(os.path.join('Certificates', 'python_scaler.jpg'), caption='Scaler Topics')
 
                 '---'
 
