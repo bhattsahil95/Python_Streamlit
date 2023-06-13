@@ -110,3 +110,4 @@ To get started with AI and ML in Python, it's important to have a solid understa
 
 '---'
 
+st.write(st.secrets['name'])
