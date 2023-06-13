@@ -16,6 +16,6 @@ st.set_page_config(
 
 
 
-st.info('Portfolio under construction. Have patience. I will add more things soon......,', icon="⚠️")
+
 
 
