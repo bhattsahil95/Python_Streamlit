@@ -31,7 +31,7 @@ def show_pdf(file_path):
 
 with st.sidebar:
     select = st.sidebar.selectbox(
-        "How would you like to be contacted?",
+        "Find More about me ",
         ("Certificates", "Option 2", "Option 3")
     )
 

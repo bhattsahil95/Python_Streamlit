@@ -3,6 +3,12 @@ import streamlit as st
 import base64
 import os
 
+st.warning( '''🚧‍ This is a playground. I usually test things here. 
+If you see something unusual, don't get alarmed. ''')
+
+
+
+
 drop_down = st.multiselect(
     "Choose a shipping method",
     ("Standard (5-15 days)", "Express (2-5 days)")
