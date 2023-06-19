@@ -17,11 +17,6 @@ if 'Express (2-5 days)' in drop_down :
     st.write(" Oho, Paisa Vadi Party")
 
 '---'
-
-import streamlit as st
-import base64
-import os
-
 def get_base64_encoded_data(file_path):
     with open(file_path, "rb") as file:
         encoded_data = base64.b64encode(file.read()).decode("utf-8")
@@ -39,7 +34,8 @@ encoded_pdf = get_base64_encoded_data(file_path)
 # Create a collapsible section
 with st.expander("View Resume"):
     # Display the PDF inline
-    st.image(f"data:application/pdf;base64,{encoded_pdf}", caption='Resume', use_column_width=True)
+    pdf_display = f'<iframe src="data:application/pdf;base64,{encoded_pdf}" width="700" height="500" style="border: none;"></iframe>'
+    st.markdown(pdf_display, unsafe_allow_html=True)
 
     # Add a download button
     download_button_html = f'<a href="data:application/pdf;base64,{encoded_pdf}" download="resume.pdf">Download Resume</a>'
