@@ -18,19 +18,29 @@ if 'Express (2-5 days)' in drop_down :
 
 '---'
 
+import streamlit as st
+import base64
+import os
+
+def get_base64_encoded_data(file_path):
+    with open(file_path, "rb") as file:
+        encoded_data = base64.b64encode(file.read()).decode("utf-8")
+    return encoded_data
+
+# Get the directory where the script is located
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Set the relative path to your PDF file
+file_path = os.path.join(current_directory, "..", "Certificates", "python_scaler.pdf")
+
+# Read the PDF file and convert it to base64 format
+encoded_pdf = get_base64_encoded_data(file_path)
+
+# Create a collapsible section
 with st.expander("View Resume"):
-    def read_pdf_file(file):
-        with open(file, "rb") as f:
-            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-            pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="700" height="500" type="application/pdf">'
-            st.markdown(pdf_display, unsafe_allow_html=True)
+    # Display the PDF inline
+    st.image(f"data:application/pdf;base64,{encoded_pdf}", caption='Resume', use_column_width=True)
 
-    # Get the current directory
-    current_directory = os.path.dirname(os.path.realpath(__file__))
-
-    # Set the relative path to your PDF file
-    file_path = os.path.join(current_directory, "..", "Certificates", "python_scaler.pdf")
-
-    read_pdf_file(file_path)
-
-
+    # Add a download button
+    download_button_html = f'<a href="data:application/pdf;base64,{encoded_pdf}" download="resume.pdf">Download Resume</a>'
+    st.markdown(download_button_html, unsafe_allow_html=True)
