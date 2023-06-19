@@ -17,25 +17,27 @@ if 'Express (2-5 days)' in drop_down :
     st.write(" Oho, Paisa Vadi Party")
 
 '---'
+
+
 def get_base64_encoded_data(file_path):
     with open(file_path, "rb") as file:
         encoded_data = base64.b64encode(file.read()).decode("utf-8")
     return encoded_data
 
-# Get the directory where the script is located
-current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Set the relative path to your PDF file
-file_path = os.path.join(current_directory, "..", "Certificates", "python_scaler.pdf")
+file_path = "Certificates/python_scaler.pdf"
 
 # Read the PDF file and convert it to base64 format
 encoded_pdf = get_base64_encoded_data(file_path)
 
 # Create a collapsible section
 with st.expander("View Resume"):
-    # Display the PDF inline
-    pdf_display = f'<iframe src="data:application/pdf;base64,{encoded_pdf}" width="700" height="500" style="border: none;"></iframe>'
-    st.markdown(pdf_display, unsafe_allow_html=True)
+    # Generate the PDF viewer HTML code
+    pdf_viewer = f'<embed src="data:application/pdf;base64,{encoded_pdf}" width="100%" height="600px" type="application/pdf">'
+
+    # Display the PDF viewer using Markdown
+    st.markdown(pdf_viewer, unsafe_allow_html=True)
 
     # Add a download button
     download_button_html = f'<a href="data:application/pdf;base64,{encoded_pdf}" download="resume.pdf">Download Resume</a>'
